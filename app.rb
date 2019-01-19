@@ -23,7 +23,7 @@ class App < Sinatra::Base
     params.each_value do |word|
       @output << word
     end
-    @output.join(" ")
+    @output.join(" ") + "."
     # "#{@word1} #{@word2} #{@word3} #{@word4} #{@word5}."
   end
 
