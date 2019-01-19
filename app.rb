@@ -24,7 +24,7 @@ class App < Sinatra::Base
     #   @output << word
     # end
     # @output.join(" ")
-    "#{@word1} #{@word2} #{@word3} #{@word4} #{@word5}"
+    "#{@word1} #{@word2} #{@word3} #{@word4} #{@word5}."
   end
 
 end
